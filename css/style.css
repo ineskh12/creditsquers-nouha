@@ -103,7 +103,7 @@ background-size: contain;
 
 
 .back{
-    background-image: url(../img/slider.jpg);
+    background-image: url(../img/Landing-page-Credit-Squares-.png);
     background-position:center   ;
     background-repeat: no-repeat;
     background-size: contain;
@@ -122,10 +122,12 @@ background-size: contain;
   
 }
 .footer2{
-    background-image: url(../img/Group65.png);
-    background-position:right top ;
+    background-image: url(../img/credits/16.png);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-position:center top ;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 3%;
  
 
 }
@@ -174,14 +176,16 @@ object-fit: none;
 }
 
 .back-to-top {
-    position: fixed;
-    display: none;
-    right: 45px;
-    bottom: 45px;
-    z-index: 99;
+    margin-top: 2%;
+    font-size: 34px;
+    color: #FC982D;
+    line-height: 0;
+    
 }
 
-
+.a:hover {
+    color: #FC982D;
+}
 /*** Spinner ***/
 #spinner {
   
@@ -208,7 +212,7 @@ object-fit: none;
 .btn-check:focus+.btn-primary, .btn-primary:focus {
     color: #000;
 
-    box-shadow: 0 0 0 0.2rem rgb(250, 209, 48);
+    box-shadow: 0 0 0 0.2rem #112A49;
 }
 
 .btn.btn-primary,
@@ -226,6 +230,11 @@ object-fit: none;
     background-color:transparent;
     border-radius:  100% 0% 100% 0% / 0% 100% 0% 100% ;
     color: white;
+}
+
+.li{
+    list-style-type: square;
+    color: #FC982D;
 }
 
 .btn-square {
@@ -261,7 +270,7 @@ object-fit: none;
     margin-left: 25px;
     padding: 35px 0;
     font-size: 15px;
-    color: var(--light) !important;
+    color: #112A49!important;
     text-transform: inherit;
     font-weight: 500;
     outline: none;
@@ -332,12 +341,12 @@ object-fit: none;
         top: 0;
         left: 0;
         z-index: 999;
-        background: transparent !important;
+        background: white !important;
     }
     
     .sticky-top.navbar-dark {
         position: fixed;
-        background: #3E517539 !important;
+        background: white !important;
     }
 }
 
@@ -415,9 +424,7 @@ object-fit: none;
     transition: .5s;
 }
 
-.service-item:hover * {
-    color: var(--light) !important;
-}
+
 .mb-5 {
     color:#135DDF;
 }
@@ -700,7 +707,7 @@ object-fit: none;
     pointer-events: auto;
     background-color: #fff;
     background-clip: padding-box;
-    border-radius: 25px;
+    border-radius: 1px;
     border: 2px solid #fff;
    
     outline: 0;
